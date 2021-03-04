@@ -97,7 +97,7 @@ To use the `--nginx-conf` argument, modify the `ExecStartPre` systemd directive 
 ExecStartPre=/usr/local/bin/kong prepare -p /usr/local/kong --nginx-conf /usr/local/kong/custom-nginx.template
 ```
 
-### Customize Kong's Nginx instance [including files via the injected Nginx directives](https://docs.konghq.com/1.0.x/configuration/#including-files-via-injected-nginx-directives)
+### Customize Kong's Nginx instance [including files via the injected Nginx directives](/gateway-oss/latest/configuration/#including-files-via-injected-nginx-directives)
 
 To include files via the injected Nginx directives, add the below `Environment` systemd directive to your custom service at `/etc/systemd/system/kong-enterprise-edition.service` if environment variables are preferred:
 

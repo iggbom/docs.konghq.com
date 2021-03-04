@@ -98,3 +98,5 @@ popular_topics:
     url: /hub/kong-inc/openid-connect/
   - text: Kong Gateway API documentation
     url: /gateway-oss/latest/admin-api
+  - text: Archived Documentation
+    url: /archived-docs

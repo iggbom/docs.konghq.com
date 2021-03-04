@@ -28,7 +28,7 @@ Kong 64-bit Amazon Machine Image (AMI) is available on the AWS Marketplace, with
 
 2. **Scaling**
 
-    Each EC2 Node is self-contained, running both Kong & Cassandra. In order to add more nodes and start a cluster, you'll have have to turn on [Clustering in Cassandra](/about/faq/#apache-cassandra), and modify each node's [`kong.yml`](https://docs.konghq.com/0.5.x/configuration/#databases_available) with the updated Cassandra information.
+    Each EC2 Node is self-contained, running both Kong & Cassandra. In order to add more nodes and start a cluster, you'll have have to turn on [Clustering in Cassandra](/about/faq/#apache-cassandra), and modify each node's [`kong.yml`](https://docs.konghq.com/gateway-oss/latest/configuration/#datastore-section) with the updated Cassandra information.
 
 3. **Use Kong**
 

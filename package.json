@@ -35,6 +35,7 @@
       "app/_assets/images/**",
       "app/_assets/fonts/**",
       "app/license/index.md",
+      "archive/**/*",
       "ldoc/*",
       "Gemfile.lock",
       "autodoc-admin-api/*.lua",

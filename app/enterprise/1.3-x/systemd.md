@@ -47,7 +47,7 @@ $ sudo systemctl status kong-enterprise-edition
 
 ## Customize the Kong Enterprise unit file
 
-Once the Kong Enterprise installation is finished, the official systemd service will be located at `/etc/kong/kong-enterprise-edition.service`. By default, this file will be copied to `/lib/systemd/system/kong-enterprise-edition.service`. 
+Once the Kong Enterprise installation is finished, the official systemd service will be located at `/etc/kong/kong-enterprise-edition.service`. By default, this file will be copied to `/lib/systemd/system/kong-enterprise-edition.service`.
 
 For scenarios where customizations are needed (for example, configuring Kong or modifying the service file behavior), we recommend creating another service at `/etc/systemd/system/kong-enterprise-edition.service` to avoid conflicts upon reinstalling or upgrading Kong Enterprise.
 
@@ -98,7 +98,7 @@ To use the `--nginx-conf` argument, modify the `ExecStartPre` systemd directive 
 ExecStartPre=/usr/local/bin/kong prepare -p /usr/local/kong --nginx-conf /usr/local/kong/custom-nginx.template
 ```
 
-### Customize Kong's Nginx instance [including files via the injected Nginx directives](https://docs.konghq.com/1.0.x/configuration/#including-files-via-injected-nginx-directives)
+### Customize Kong's Nginx instance [including files via the injected Nginx directives](/gateway-oss/latest/configuration/#including-files-via-injected-nginx-directives)
 
 To include files via the injected Nginx directives, add the below `Environment` systemd directive to your custom service at `/etc/systemd/system/kong-enterprise-edition.service` if environment variables are preferred:
 

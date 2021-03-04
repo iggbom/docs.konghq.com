@@ -133,10 +133,10 @@ being shown in the logs.
 - Fixed an issue that incorrectly enforced plugins when they exist in the default and a named workspace.
    The plugin configuration in the default workspace was incorrectly overriding the disabled plugin
    configuration in the named workspace.
-- Fixed an issue for vitals when proxy-cached-advanced or forward-proxy plugins (possibly others) 
-are in use. 
-- Requests that received a cache hit using the plugins were not showing up under 
-   service/route vitals, but were visible under workspace vitals. 
+- Fixed an issue for vitals when proxy-cached-advanced or forward-proxy plugins (possibly others)
+are in use.
+- Requests that received a cache hit using the plugins were not showing up under
+   service/route vitals, but were visible under workspace vitals.
 
 #### CLI
 - Fixed issue where `kong reload -c <config>` would fail.
@@ -3692,7 +3692,7 @@ Kong Enterprise 0.30 is shipped with all the changes present in [Kong Community 
 
 ---
 
-[rbac-overview]: /enterprise/0.33-x/rbac/overview
-[workspaces-overview]: /enterprise/0.33-x/workspaces/overview
-[statsd-docs]: /enterprise/0.33-x/plugins/statsd-advanced
-[prometheus-docs]: /plugins/prometheus
+[rbac-overview]: /enterprise/latest/rbac/overview
+[workspaces-overview]: /enterprise/latest/workspaces/overview
+[statsd-docs]: /hub/kong-inc/statsd-advanced
+[prometheus-docs]: /hub/kong-inc/prometheus

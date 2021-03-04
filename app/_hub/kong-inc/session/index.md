@@ -37,7 +37,7 @@ kong_version_compatibility:
   enterprise_edition:
     compatible:
       - 2.3.x
-      - 2.2.x 
+      - 2.2.x
       - 2.1.x
       - 1.5.x
       - 1.3-x
@@ -410,6 +410,6 @@ _not_ a problem during session renewal period as renew happens in `access` phase
 
 [plugin]: https://docs.konghq.com/hub/
 [lua-resty-session]: https://github.com/bungle/lua-resty-session
-[multiple authentication]: https://docs.konghq.com/0.14.x/auth/#multiple-authentication
+[multiple authentication]: https://docs.konghq.com/latest/auth/#multiple-authentication
 [key auth]: https://docs.konghq.com/hub/kong-inc/key-auth/
 [request termination]: https://docs.konghq.com/hub/kong-inc/request-termination/
