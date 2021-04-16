@@ -18,7 +18,7 @@ steps to configure PostgreSQL.
 
 To complete this installation you will need:
 
-{% include /md/{{page.kong_version}}/bintray-and-license.md %}
+{% include /md/enterprise/license.md license='prereq' %}
 * A Docker-enabled system with proper Docker access.
 
 ## Step 1. Add the Kong Docker Repository and Pull the Kong Enterprise Docker Image
